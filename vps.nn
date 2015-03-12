@@ -15,7 +15,32 @@ https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on
 https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-config-server-firewall-csf-on-ubuntu
 https://www.rosehosting.com/blog/securing-your-ubuntudebian-based-vps-using-iptablesnetfilter-firewall/
 
-## Users
+## Editor
+
+`update-alternatives --config editor`  
+
 ## SSH
+
+### Banner
+
+Display a message before login.
+Edit `/etc/ssh/sshd_config` and set Banner option :  
+`Banner /path/to/banner`
+
+### Motd
+
+Message Of The Day : display a message after login.  
+Dynamic part : `/etc/init.d/motd`
+Static part : edit `/etc/motd`
+
+https://wiki.debian.org/motd   
+http://www.mewbies.com/how_to_customize_your_console_login_message_tutorial.htm
+
+## Users
+
+`dpkg-reconfigure adduser`  
+`adduser toto`
+`gpasswd -a toto sudo`
+
 ## Packages
 ## Firewall
