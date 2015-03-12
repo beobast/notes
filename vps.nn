@@ -1,0 +1,21 @@
+# Virtual Private Server Administration
+
+Hosting : harmony hosting
+OS : Debian 7 Wheezy 64 bits
+RAM : 3 Go
+CPU : 4 cores
+SSD : 100 Go
+
+Name : bastienfaure.cloudcraft.fr
+IP : 92.222.195.38
+
+http://postblue.info/debian-configuration-vps-minimal/
+https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
+https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos
+https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-config-server-firewall-csf-on-ubuntu
+https://www.rosehosting.com/blog/securing-your-ubuntudebian-based-vps-using-iptablesnetfilter-firewall/
+
+## Users
+## SSH
+## Packages
+## Firewall
