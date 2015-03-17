@@ -10,10 +10,6 @@ Name : bastienfaure.cloudcraft.fr
 IP : 92.222.195.38
 
 http://postblue.info/debian-configuration-vps-minimal/
-https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
-https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos
-https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-config-server-firewall-csf-on-ubuntu
-https://www.rosehosting.com/blog/securing-your-ubuntudebian-based-vps-using-iptablesnetfilter-firewall/
 
 ## Editor
 
@@ -42,7 +38,43 @@ http://www.mewbies.com/how_to_customize_your_console_login_message_tutorial.htm
 `adduser toto`
 `gpasswd -a toto sudo`
 
+https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
+https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos
+
 ## Firewall
+
+```bash
+#!/bin/bash
+
+IPTABLES=/sbin/iptables
+
+echo "Flushing old rules"
+$IPTABLES -F 
+
+echo "Setting default policies"
+$IPTABLES -P INPUT DROP
+$IPTABLES -P FORWARD DROP
+$IPTABLES -P OUTPUT ACCEPT
+
+echo "Allowing existing connections" 
+$IPTABLES -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+echo "Allowing loopback devices INPUT"
+$IPTABLES -A INPUT -i lo -j ACCEPT
+
+echo "Allowing ssh on port 22 INPUT"
+$IPTABLES -A INPUT -p tcp --dport 22 -j ACCEPT
+
+echo "DROP everything else"
+$IPTABLES -A INPUT -j DROP
+```
+
+iptables-persitent
+
+https://www.rosehosting.com/blog/securing-your-ubuntudebian-based-vps-using-iptablesnetfilter-firewall/
+
 ## Fail2ban
+
+http://www.the-art-of-web.com/system/fail2ban/
+
 ## Packages
-## Firewall
