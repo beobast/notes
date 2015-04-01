@@ -44,9 +44,13 @@ Bien que non indispensables, les bâtons sont utiles à la montée pour économi
 - téléscopiques
 - légers
 
+Modèle choisi :
+
 ### Sac à dos
 
 Indispensable pour porter les effets personnels, la nourriture ... et la planche de snowboard !
+
+Modèle choisi :
 
 ### Conclusion
 
@@ -56,4 +60,13 @@ La solution raquettes + bâton + planche dans le dos est donc simple et accessib
 
 ## Splitboard
 
+### Splitboard-2
+### Splitboard-3
+### Splitboard-4
+### Splitboard-5
 
+## Sécurité
+
+### Détecteur de Victime d'Avalanche
+### Pelle
+### Sonde
