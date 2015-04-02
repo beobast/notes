@@ -114,17 +114,31 @@ On peut également ajouter une charnière :
 
 ### Splitboard-5
 
+Nous n'en sommes pas à une découpe près ! Ajoutons la possibilité d'avoir une queue d'hirondelle :
 ![splitboard-5](http://splitboard-power.fr/images/stories/documents/pentagram.png)
 
 ### Fixations
 
+
+
 ### Conclusion sur le splitboard
+
+L'idée d'utiliser sa planche de snowboard aussi bien à la montée qu'à la descente me plait beaucoup. La première question que je me suis posée était "
+
+Avantages :
+
+- moins de matériel car suppression des raquettes
+- moins de poids dans le dos car plus de planche à porter
+- monter à la façon skieur de randonnée
 
 Inconvénient majeur : le prix !
 
 ## Sécurité
 
 ### Détecteur de Victime d'Avalanche
+
+Mammut Element Barryvox
+
 ### Pelle
 ### Sonde
 
@@ -135,3 +149,5 @@ Inconvénient majeur : le prix !
 - [Comment bien choisir ses raquettes à neige](http://www.zeoutdoor.com/mag/choisir-raquettes-neige.html)
 - [Skis d'approche SnowVenture](http://www.stc-swiss.ch/handel/index_f.html)
 - [Splitboard : un point après 10 ans de pratique](http://www.volopress.net/volo/spip.php?article614)
+- [Comparatif DVA](http://cafdepau.ffcam.fr/test-comparatif-DVA-2015.html)
+- [Choisir sa sonde et sa pelle](http://www.anena.org/6018-choisir-sa-sonde-et-sa-pelle.htm)
